@@ -1,0 +1,22 @@
+:root {
+  color-scheme: dark;
+  font-family: 'Press Start 2P', system-ui, sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top, #1c2741 0%, #0d111b 100%);
+  color: #f0f6ff;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#__next,
+body {
+  min-height: 100vh;
+}
